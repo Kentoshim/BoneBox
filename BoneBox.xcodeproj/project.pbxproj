@@ -3,16 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354D8D483F0CEE36DFC482BD /* Pods_BoneBoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE795AAD8F96B1816ADC79A7 /* Pods_BoneBoxTests.framework */; };
 		7B36A1FD259B7DC4008DD130 /* BoneBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36A1FC259B7DC3008DD130 /* BoneBoxApp.swift */; };
 		7B36A1FF259B7DC4008DD130 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36A1FE259B7DC4008DD130 /* ContentView.swift */; };
 		7B36A201259B7DC8008DD130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B36A200259B7DC8008DD130 /* Assets.xcassets */; };
 		7B36A204259B7DC8008DD130 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B36A203259B7DC8008DD130 /* Preview Assets.xcassets */; };
 		7B36A20F259B7DC9008DD130 /* BoneBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36A20E259B7DC9008DD130 /* BoneBoxTests.swift */; };
 		7B36A21A259B7DC9008DD130 /* BoneBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36A219259B7DC9008DD130 /* BoneBoxUITests.swift */; };
+		7B36A23B259B9BAF008DD130 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B36A23A259B9BAF008DD130 /* GoogleService-Info.plist */; };
+		7B36A23C259B9BAF008DD130 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B36A23A259B9BAF008DD130 /* GoogleService-Info.plist */; };
+		7B36A23D259B9BB0008DD130 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B36A23A259B9BAF008DD130 /* GoogleService-Info.plist */; };
+		7B36A246259C70DF008DD130 /* FirebassaeAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36A245259C70DE008DD130 /* FirebassaeAuthView.swift */; };
+		7B36A247259C70DF008DD130 /* FirebassaeAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36A245259C70DE008DD130 /* FirebassaeAuthView.swift */; };
+		7B36A248259C70DF008DD130 /* FirebassaeAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36A245259C70DE008DD130 /* FirebassaeAuthView.swift */; };
+		86C7E8DC8129BEDF74466888 /* Pods_BoneBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E57C908E89612AC07D1192 /* Pods_BoneBox.framework */; };
+		89F419F0894572E95E1E5678 /* Pods_BoneBox_BoneBoxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE76A4504A196D44EDA919E /* Pods_BoneBox_BoneBoxUITests.framework */; };
+		C5C7007C6EB57D65AFC442FF /* Appdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C70F5245BAE825E2C80B44 /* Appdelegate.swift */; };
+		C5C7067EA06C74B0A155B3E6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C5C70D496A6CA6E0659EBFC7 /* .gitignore */; };
+		C5C70A0B69D725DFED6077DC /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C709A8B50939994A778A92 /* FirebaseAuthManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2330AF80022C4FA7F08DDDCD /* Pods-BoneBox-BoneBoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoneBox-BoneBoxUITests.release.xcconfig"; path = "Target Support Files/Pods-BoneBox-BoneBoxUITests/Pods-BoneBox-BoneBoxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		30C3E0880D8A958B0C98F38E /* Pods-BoneBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoneBox.release.xcconfig"; path = "Target Support Files/Pods-BoneBox/Pods-BoneBox.release.xcconfig"; sourceTree = "<group>"; };
+		36E57C908E89612AC07D1192 /* Pods_BoneBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoneBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EBAADD433F1B961A608C35 /* Pods-BoneBoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoneBoxTests.debug.xcconfig"; path = "Target Support Files/Pods-BoneBoxTests/Pods-BoneBoxTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B36A1F9259B7DC3008DD130 /* BoneBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoneBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B36A1FC259B7DC3008DD130 /* BoneBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoneBoxApp.swift; sourceTree = "<group>"; };
 		7B36A1FE259B7DC4008DD130 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +61,16 @@
 		7B36A215259B7DC9008DD130 /* BoneBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoneBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B36A219259B7DC9008DD130 /* BoneBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoneBoxUITests.swift; sourceTree = "<group>"; };
 		7B36A21B259B7DC9008DD130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B36A23A259B9BAF008DD130 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7B36A245259C70DE008DD130 /* FirebassaeAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebassaeAuthView.swift; sourceTree = "<group>"; };
+		8577F3254B992E0ACEE73EA2 /* Pods-BoneBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoneBox.debug.xcconfig"; path = "Target Support Files/Pods-BoneBox/Pods-BoneBox.debug.xcconfig"; sourceTree = "<group>"; };
+		BE795AAD8F96B1816ADC79A7 /* Pods_BoneBoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoneBoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C709A8B50939994A778A92 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
+		C5C70D496A6CA6E0659EBFC7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		C5C70F5245BAE825E2C80B44 /* Appdelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appdelegate.swift; sourceTree = "<group>"; };
+		D4DE5C921532AD190DDD3C6E /* Pods-BoneBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoneBoxTests.release.xcconfig"; path = "Target Support Files/Pods-BoneBoxTests/Pods-BoneBoxTests.release.xcconfig"; sourceTree = "<group>"; };
+		DBE76A4504A196D44EDA919E /* Pods_BoneBox_BoneBoxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoneBox_BoneBoxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EA4B5BE0DC5B6FF44F992C /* Pods-BoneBox-BoneBoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoneBox-BoneBoxUITests.debug.xcconfig"; path = "Target Support Files/Pods-BoneBox-BoneBoxUITests/Pods-BoneBox-BoneBoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C7E8DC8129BEDF74466888 /* Pods_BoneBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354D8D483F0CEE36DFC482BD /* Pods_BoneBoxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F419F0894572E95E1E5678 /* Pods_BoneBox_BoneBoxUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +104,14 @@
 		7B36A1F0259B7DC3008DD130 = {
 			isa = PBXGroup;
 			children = (
+				7B36A23A259B9BAF008DD130 /* GoogleService-Info.plist */,
 				7B36A1FB259B7DC3008DD130 /* BoneBox */,
 				7B36A20D259B7DC9008DD130 /* BoneBoxTests */,
 				7B36A218259B7DC9008DD130 /* BoneBoxUITests */,
 				7B36A1FA259B7DC3008DD130 /* Products */,
+				85955FD9F56032BAF8847820 /* Pods */,
+				E9EE56634A06355E2618AA67 /* Frameworks */,
+				C5C70D496A6CA6E0659EBFC7 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +128,8 @@
 		7B36A1FB259B7DC3008DD130 /* BoneBox */ = {
 			isa = PBXGroup;
 			children = (
+				C5C70F5245BAE825E2C80B44 /* Appdelegate.swift */,
+				7B36A244259C707D008DD130 /* Auth */,
 				7B36A1FC259B7DC3008DD130 /* BoneBoxApp.swift */,
 				7B36A1FE259B7DC4008DD130 /* ContentView.swift */,
 				7B36A200259B7DC8008DD130 /* Assets.xcassets */,
@@ -130,6 +165,38 @@
 			path = BoneBoxUITests;
 			sourceTree = "<group>";
 		};
+		7B36A244259C707D008DD130 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7B36A245259C70DE008DD130 /* FirebassaeAuthView.swift */,
+				C5C709A8B50939994A778A92 /* FirebaseAuthManager.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		85955FD9F56032BAF8847820 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8577F3254B992E0ACEE73EA2 /* Pods-BoneBox.debug.xcconfig */,
+				30C3E0880D8A958B0C98F38E /* Pods-BoneBox.release.xcconfig */,
+				E6EA4B5BE0DC5B6FF44F992C /* Pods-BoneBox-BoneBoxUITests.debug.xcconfig */,
+				2330AF80022C4FA7F08DDDCD /* Pods-BoneBox-BoneBoxUITests.release.xcconfig */,
+				54EBAADD433F1B961A608C35 /* Pods-BoneBoxTests.debug.xcconfig */,
+				D4DE5C921532AD190DDD3C6E /* Pods-BoneBoxTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9EE56634A06355E2618AA67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36E57C908E89612AC07D1192 /* Pods_BoneBox.framework */,
+				DBE76A4504A196D44EDA919E /* Pods_BoneBox_BoneBoxUITests.framework */,
+				BE795AAD8F96B1816ADC79A7 /* Pods_BoneBoxTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +204,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B36A21E259B7DC9008DD130 /* Build configuration list for PBXNativeTarget "BoneBox" */;
 			buildPhases = (
+				D85FFCC6CA0C2AF97E96C823 /* [CP] Check Pods Manifest.lock */,
 				7B36A1F5259B7DC3008DD130 /* Sources */,
+				7BCE1D1C259C7FA600746913 /* ShellScript */,
 				7B36A1F6259B7DC3008DD130 /* Frameworks */,
 				7B36A1F7259B7DC3008DD130 /* Resources */,
+				61E45C57B15FE704FCA6E321 /* [CP] Embed Pods Frameworks */,
+				0EC599058154D403FC99D384 /* [CP] Copy Pods Resources */,
+				7BCE1D26259C805400746913 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -154,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B36A221259B7DC9008DD130 /* Build configuration list for PBXNativeTarget "BoneBoxTests" */;
 			buildPhases = (
+				73B4E2345C58A6214DFDA496 /* [CP] Check Pods Manifest.lock */,
 				7B36A206259B7DC9008DD130 /* Sources */,
 				7B36A207259B7DC9008DD130 /* Frameworks */,
 				7B36A208259B7DC9008DD130 /* Resources */,
@@ -172,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B36A224259B7DC9008DD130 /* Build configuration list for PBXNativeTarget "BoneBoxUITests" */;
 			buildPhases = (
+				EECC327EE26DE637046095D6 /* [CP] Check Pods Manifest.lock */,
 				7B36A211259B7DC9008DD130 /* Sources */,
 				7B36A212259B7DC9008DD130 /* Frameworks */,
 				7B36A213259B7DC9008DD130 /* Resources */,
+				41D18FAE7257F282806709A5 /* [CP] Embed Pods Frameworks */,
+				E4CA519B622864F39165AF93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +311,8 @@
 			files = (
 				7B36A204259B7DC8008DD130 /* Preview Assets.xcassets in Resources */,
 				7B36A201259B7DC8008DD130 /* Assets.xcassets in Resources */,
+				7B36A23B259B9BAF008DD130 /* GoogleService-Info.plist in Resources */,
+				C5C7067EA06C74B0A155B3E6 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B36A23C259B9BAF008DD130 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +328,184 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B36A23D259B9BB0008DD130 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EC599058154D403FC99D384 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoneBox/Pods-BoneBox-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoneBox/Pods-BoneBox-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoneBox/Pods-BoneBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41D18FAE7257F282806709A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoneBox-BoneBoxUITests/Pods-BoneBox-BoneBoxUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoneBox-BoneBoxUITests/Pods-BoneBox-BoneBoxUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoneBox-BoneBoxUITests/Pods-BoneBox-BoneBoxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61E45C57B15FE704FCA6E321 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoneBox/Pods-BoneBox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoneBox/Pods-BoneBox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoneBox/Pods-BoneBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73B4E2345C58A6214DFDA496 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoneBoxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BCE1D1C259C7FA600746913 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint autocorrect && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		7BCE1D26259C805400746913 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		D85FFCC6CA0C2AF97E96C823 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoneBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4CA519B622864F39165AF93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoneBox-BoneBoxUITests/Pods-BoneBox-BoneBoxUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoneBox-BoneBoxUITests/Pods-BoneBox-BoneBoxUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoneBox-BoneBoxUITests/Pods-BoneBox-BoneBoxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EECC327EE26DE637046095D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoneBox-BoneBoxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B36A1F5259B7DC3008DD130 /* Sources */ = {
@@ -260,7 +513,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B36A1FF259B7DC4008DD130 /* ContentView.swift in Sources */,
+				7B36A246259C70DF008DD130 /* FirebassaeAuthView.swift in Sources */,
 				7B36A1FD259B7DC4008DD130 /* BoneBoxApp.swift in Sources */,
+				C5C70A0B69D725DFED6077DC /* FirebaseAuthManager.swift in Sources */,
+				C5C7007C6EB57D65AFC442FF /* Appdelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +525,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B36A20F259B7DC9008DD130 /* BoneBoxTests.swift in Sources */,
+				7B36A247259C70DF008DD130 /* FirebassaeAuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +534,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B36A21A259B7DC9008DD130 /* BoneBoxUITests.swift in Sources */,
+				7B36A248259C70DF008DD130 /* FirebassaeAuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +672,7 @@
 		};
 		7B36A21F259B7DC9008DD130 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8577F3254B992E0ACEE73EA2 /* Pods-BoneBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +695,7 @@
 		};
 		7B36A220259B7DC9008DD130 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C3E0880D8A958B0C98F38E /* Pods-BoneBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +718,7 @@
 		};
 		7B36A222259B7DC9008DD130 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EBAADD433F1B961A608C35 /* Pods-BoneBoxTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +741,7 @@
 		};
 		7B36A223259B7DC9008DD130 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DE5C921532AD190DDD3C6E /* Pods-BoneBoxTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +764,7 @@
 		};
 		7B36A225259B7DC9008DD130 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6EA4B5BE0DC5B6FF44F992C /* Pods-BoneBox-BoneBoxUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +785,7 @@
 		};
 		7B36A226259B7DC9008DD130 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2330AF80022C4FA7F08DDDCD /* Pods-BoneBox-BoneBoxUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

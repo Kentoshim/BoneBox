@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct BoneBoxApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -6,11 +6,27 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct ContentView: View {
+    @ObservedObject private var authManager = FirebaseAuthManager()
+    @State var isShowSheet = false
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            if !authManager.signIn {
+                Button(action: { self.isShowSheet.toggle() }) { Text("Sign-In")}
+            } else {
+                Button(action: {
+                    do {
+                        try Auth.auth().signOut()
+                    } catch { print("sign out Error")
+                    }
+                }) { Text("Sign Out") }
+            }
+        }.sheet(isPresented: $isShowSheet) {
+            FirebaseAuthView(isShowingSheet: self.$isShowSheet)
+        }
     }
 }
 
