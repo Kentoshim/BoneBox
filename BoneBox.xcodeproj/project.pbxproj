@@ -12,9 +12,6 @@
 		7B1521B0259E3D49006E0DBE /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1521AF259E3D49006E0DBE /* R.generated.swift */; };
 		7B152239259F3D31006E0DBE /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B152238259F3D31006E0DBE /* LoginButtonView.swift */; };
 		7B15223E259F3F21006E0DBE /* StartButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B15223D259F3F21006E0DBE /* StartButtonsView.swift */; };
-		7B152247259F44A1006E0DBE /* CreateNewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B152246259F44A1006E0DBE /* CreateNewGameView.swift */; };
-		7B15224F259F454F006E0DBE /* CreateNewGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B15224E259F454F006E0DBE /* CreateNewGameViewModel.swift */; };
-		7B152254259F654F006E0DBE /* PlayerCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B152253259F654F006E0DBE /* PlayerCountView.swift */; };
 		7B36A1FD259B7DC4008DD130 /* BoneBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36A1FC259B7DC3008DD130 /* BoneBoxApp.swift */; };
 		7B36A1FF259B7DC4008DD130 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36A1FE259B7DC4008DD130 /* ContentView.swift */; };
 		7B36A201259B7DC8008DD130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B36A200259B7DC8008DD130 /* Assets.xcassets */; };
@@ -27,12 +24,17 @@
 		7B36A246259C70DF008DD130 /* FirebassaeAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36A245259C70DE008DD130 /* FirebassaeAuthView.swift */; };
 		7B36A247259C70DF008DD130 /* FirebassaeAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36A245259C70DE008DD130 /* FirebassaeAuthView.swift */; };
 		7B36A248259C70DF008DD130 /* FirebassaeAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36A245259C70DE008DD130 /* FirebassaeAuthView.swift */; };
+		7B3AFB1E25B344BC00EE5D8D /* RankBonusPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AFB1D25B344BC00EE5D8D /* RankBonusPointView.swift */; };
 		86C7E8DC8129BEDF74466888 /* Pods_BoneBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E57C908E89612AC07D1192 /* Pods_BoneBox.framework */; };
 		89F419F0894572E95E1E5678 /* Pods_BoneBox_BoneBoxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE76A4504A196D44EDA919E /* Pods_BoneBox_BoneBoxUITests.framework */; };
 		C5C7007C6EB57D65AFC442FF /* Appdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C70F5245BAE825E2C80B44 /* Appdelegate.swift */; };
 		C5C7067EA06C74B0A155B3E6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C5C70D496A6CA6E0659EBFC7 /* .gitignore */; };
+		C5C70785249E8ED20DFF0528 /* CreateNewGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C70C2CABAA59B46F515B33 /* CreateNewGameViewModel.swift */; };
 		C5C70A0B69D725DFED6077DC /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C709A8B50939994A778A92 /* FirebaseAuthManager.swift */; };
+		C5C70AB57E4CFFE19B226B37 /* PointSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C700C860186F0BCD61DC7F /* PointSettingView.swift */; };
+		C5C70D6BB7B7B788AD28AFAD /* PlayerCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C70E9C65CF6178449A6F32 /* PlayerCountView.swift */; };
 		C5C70D9AA635C13F7BCE7B6A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C70B88ACF46EB19165EAF3 /* MainView.swift */; };
+		C5C70E3A576502138DDA8719 /* CreateNewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C70AEBB90ACE02B1713FC9 /* CreateNewGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,9 +63,6 @@
 		7B1521AF259E3D49006E0DBE /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		7B152238259F3D31006E0DBE /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
 		7B15223D259F3F21006E0DBE /* StartButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonsView.swift; sourceTree = "<group>"; };
-		7B152246259F44A1006E0DBE /* CreateNewGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewGameView.swift; sourceTree = "<group>"; };
-		7B15224E259F454F006E0DBE /* CreateNewGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewGameViewModel.swift; sourceTree = "<group>"; };
-		7B152253259F654F006E0DBE /* PlayerCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCountView.swift; sourceTree = "<group>"; };
 		7B36A1F9259B7DC3008DD130 /* BoneBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoneBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B36A1FC259B7DC3008DD130 /* BoneBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoneBoxApp.swift; sourceTree = "<group>"; };
 		7B36A1FE259B7DC4008DD130 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,11 +77,16 @@
 		7B36A21B259B7DC9008DD130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B36A23A259B9BAF008DD130 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7B36A245259C70DE008DD130 /* FirebassaeAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebassaeAuthView.swift; sourceTree = "<group>"; };
+		7B3AFB1D25B344BC00EE5D8D /* RankBonusPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankBonusPointView.swift; sourceTree = "<group>"; };
 		8577F3254B992E0ACEE73EA2 /* Pods-BoneBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoneBox.debug.xcconfig"; path = "Target Support Files/Pods-BoneBox/Pods-BoneBox.debug.xcconfig"; sourceTree = "<group>"; };
 		BE795AAD8F96B1816ADC79A7 /* Pods_BoneBoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoneBoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C700C860186F0BCD61DC7F /* PointSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointSettingView.swift; sourceTree = "<group>"; };
 		C5C709A8B50939994A778A92 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
+		C5C70AEBB90ACE02B1713FC9 /* CreateNewGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewGameView.swift; sourceTree = "<group>"; };
 		C5C70B88ACF46EB19165EAF3 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C5C70C2CABAA59B46F515B33 /* CreateNewGameViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewGameViewModel.swift; sourceTree = "<group>"; };
 		C5C70D496A6CA6E0659EBFC7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		C5C70E9C65CF6178449A6F32 /* PlayerCountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCountView.swift; sourceTree = "<group>"; };
 		C5C70F5245BAE825E2C80B44 /* Appdelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appdelegate.swift; sourceTree = "<group>"; };
 		D4DE5C921532AD190DDD3C6E /* Pods-BoneBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoneBoxTests.release.xcconfig"; path = "Target Support Files/Pods-BoneBoxTests/Pods-BoneBoxTests.release.xcconfig"; sourceTree = "<group>"; };
 		DBE76A4504A196D44EDA919E /* Pods_BoneBox_BoneBoxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoneBox_BoneBoxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,20 +129,9 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		7B152245259F4429006E0DBE /* CreateNewGame */ = {
-			isa = PBXGroup;
-			children = (
-				7B152246259F44A1006E0DBE /* CreateNewGameView.swift */,
-				7B15224E259F454F006E0DBE /* CreateNewGameViewModel.swift */,
-				7B152253259F654F006E0DBE /* PlayerCountView.swift */,
-			);
-			path = CreateNewGame;
-			sourceTree = "<group>";
-		};
 		7B36A1F0259B7DC3008DD130 = {
 			isa = PBXGroup;
 			children = (
-				7B152245259F4429006E0DBE /* CreateNewGame */,
 				7B1521AF259E3D49006E0DBE /* R.generated.swift */,
 				7B36A23A259B9BAF008DD130 /* GoogleService-Info.plist */,
 				7B36A1FB259B7DC3008DD130 /* BoneBox */,
@@ -173,6 +166,7 @@
 				7B36A205259B7DC8008DD130 /* Info.plist */,
 				7B36A202259B7DC8008DD130 /* Preview Content */,
 				C5C70AEAEA72AB3E79DB6059 /* Main */,
+				C5C70E0F0CF0F8008F19E5DF /* CreateNewGame */,
 			);
 			path = BoneBox;
 			sourceTree = "<group>";
@@ -233,6 +227,18 @@
 				7B15223D259F3F21006E0DBE /* StartButtonsView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		C5C70E0F0CF0F8008F19E5DF /* CreateNewGame */ = {
+			isa = PBXGroup;
+			children = (
+				C5C70AEBB90ACE02B1713FC9 /* CreateNewGameView.swift */,
+				C5C70C2CABAA59B46F515B33 /* CreateNewGameViewModel.swift */,
+				C5C70E9C65CF6178449A6F32 /* PlayerCountView.swift */,
+				C5C700C860186F0BCD61DC7F /* PointSettingView.swift */,
+				7B3AFB1D25B344BC00EE5D8D /* RankBonusPointView.swift */,
+			);
+			path = CreateNewGame;
 			sourceTree = "<group>";
 		};
 		E9EE56634A06355E2618AA67 /* Frameworks */ = {
@@ -567,12 +573,14 @@
 				7B36A1FD259B7DC4008DD130 /* BoneBoxApp.swift in Sources */,
 				7B1521B0259E3D49006E0DBE /* R.generated.swift in Sources */,
 				7B1521A5259E33E2006E0DBE /* RSwiftExtension.swift in Sources */,
-				7B152254259F654F006E0DBE /* PlayerCountView.swift in Sources */,
 				C5C70A0B69D725DFED6077DC /* FirebaseAuthManager.swift in Sources */,
 				C5C7007C6EB57D65AFC442FF /* Appdelegate.swift in Sources */,
 				C5C70D9AA635C13F7BCE7B6A /* MainView.swift in Sources */,
-				7B152247259F44A1006E0DBE /* CreateNewGameView.swift in Sources */,
-				7B15224F259F454F006E0DBE /* CreateNewGameViewModel.swift in Sources */,
+				C5C70E3A576502138DDA8719 /* CreateNewGameView.swift in Sources */,
+				C5C70785249E8ED20DFF0528 /* CreateNewGameViewModel.swift in Sources */,
+				C5C70D6BB7B7B788AD28AFAD /* PlayerCountView.swift in Sources */,
+				C5C70AB57E4CFFE19B226B37 /* PointSettingView.swift in Sources */,
+				7B3AFB1E25B344BC00EE5D8D /* RankBonusPointView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,18 +9,20 @@ import Combine
 
 class CreateNewGameViewModel: ObservableObject {
     @Published var state: GameSetting = GameSetting.defauntSetting
-
+    @Published var players: PlayerCount = .four
+    @Published var originPoint: Int = 30000
+    @Published var firstPoint: Int = 25000
 }
 
 
-class GameSetting {
+struct GameSetting {
     static let defauntSetting: GameSetting = .init(players: .four, pointSetting: PointSetting.defaultSetting)
     init(players: PlayerCount, pointSetting: PointSetting) {
         self.players = players
         self.pointSetting = pointSetting
     }
-    var players: PlayerCount
-    var pointSetting: PointSetting
+    let players: PlayerCount
+    let pointSetting: PointSetting
 }
 
 enum PlayerCount: String, CaseIterable {
@@ -45,10 +47,10 @@ extension PlayerCount: PickerContent {
 
 protocol PickerContent: CaseIterable, CustomStringConvertible {}
 
-class PointSetting {
-    var originPoint: Int
-    var firstPoint: Int
-    var bonusPoint: (Int, Int)?
+struct PointSetting {
+    let originPoint: Int
+    let firstPoint: Int
+    let bonusPoint: (Int, Int)?
     
     init(originPoint: Int, firstPoint: Int, bonusPoint: (Int, Int)?) {
         self.originPoint = originPoint

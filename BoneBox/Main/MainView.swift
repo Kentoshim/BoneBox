@@ -21,7 +21,6 @@ struct MainView: View {
                         StartButtonsView()
                     } else { LoginButtonView() }
                     Spacer()
-                    
                 }
             }
         }

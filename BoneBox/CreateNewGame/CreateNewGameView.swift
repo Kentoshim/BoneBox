@@ -11,7 +11,9 @@ struct CreateNewGameView: View {
     @ObservedObject private var vm: CreateNewGameViewModel = CreateNewGameViewModel();
     var body: some View {
         List {
-            PlayerCountView(selectedCase: $vm.state.players)
+            PlayerCountView(selectedCase: $vm.players)
+            PointSettingView(label: "持ち点", defaultValue: 25000, step: 1000, point: $vm.firstPoint)
+            PointSettingView(label: "原点", defaultValue: 30000, step: 1000, point: $vm.originPoint)
         }
     }
 }
